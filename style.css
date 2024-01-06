@@ -53,13 +53,15 @@ header {
 /* about section style */
 .about {
   display: flex;
-  justify-content: center;
-  margin-top: 186px;
+  align-items: center;
+  background-color: aqua;
+  margin-top: 180px;
+
 }
 .about-left {
   background-color: rgba(241, 91, 34, 0.2);
-  height: 527px;
   width: 527px;
+  height: 527px;
   border-radius: 100%;
   position: relative;
 }
@@ -70,8 +72,8 @@ header {
   transform: translate(-50%);
 }
 .about-content {
-  width: 425px;
-  padding: 87px 0 87px 87px;
+  padding-left: 87px ;
+  width: 505px;
 }
 .about-content ul > li {
   list-style: circle;
@@ -142,7 +144,7 @@ footer {
 
 .footer-container {
   display: flex;
-  gap: 300px;
+  gap: 262px;
 
   color: #fff;
 }
