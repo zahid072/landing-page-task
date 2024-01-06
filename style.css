@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-    font-family: Open Sans, sans-serif;
-    font-family: Work Sans, sans-serif;
+  font-family: Open Sans, sans-serif;
+  font-family: Work Sans, sans-serif;
 }
 
 /* header section style */
@@ -84,52 +84,84 @@ header {
 }
 
 /* my plans section style */
-.plans-section{
-    text-align: center;
-    margin: 130px 0;
+.plans-section {
+  text-align: center;
+  margin: 130px 0;
 }
-.plan-content{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 56px;
+.plan-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
 }
-.plans-title{
-    font-size: 40px;
-    font-weight: 700;
+.plans-title {
+  font-size: 40px;
+  font-weight: 700;
 }
-.plans-card >h1{
-    font-size: 30px;
-    margin: 16px 0;
-    font-weight: 700;
+.plans-card > h1 {
+  font-size: 30px;
+  margin: 16px 0;
+  font-weight: 700;
 }
-.plans-card h3{
-    font-size: 25px;
-    color: #737272;
-    font-weight: 500;
+.plans-card h3 {
+  font-size: 25px;
+  color: #737272;
+  font-weight: 500;
 }
 
 /* last section style */
 
-.last-section{
-    background: url('./images/gradient2.png'), url('./images/watch.png');
-    padding: 59px 64px;
-    background-repeat: no-repeat;
-    height: 300px;
+.last-section {
+  background: url("./images/gradient2.png"), url("./images/watch.png");
+  padding: 59px 64px;
+  background-repeat: no-repeat;
+  height: 300px;
 }
-.last-content{
-    width: 459px;
+.last-content {
+  width: 459px;
 }
-.last-content h1{
-    font-size: 40px;
-    color: #fff;
+.last-content h1 {
+  font-size: 40px;
+  color: #fff;
+}
 
+.call-btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  margin-top: 24px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.call-btn{
-    padding: 20px 30px;
-    border-radius: 5px;
-    margin-top: 24px;
-    color: #f15b22;
-    font-size: 20px;
-    font-weight: 600;
+/* footer section style */
+footer {
+  background-color: #151414;
+  padding: 130px 230px;
+}
+
+.footer-container {
+  display: flex;
+  gap: 300px;
+
+  color: #fff;
+}
+form > input {
+  display: block;
+  width: 325px;
+  padding: 16px 20px;
+  border-radius: 5px;
+}
+.footer-content h1 {
+  margin-bottom: 16px;
+  font-size: 45px;
+}
+.footer-content h3 {
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin-top: 20px;
+}
+.social-icon img {
+  margin-right: 20px;
 }
